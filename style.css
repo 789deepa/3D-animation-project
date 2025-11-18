@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(220, 74, 74);
+}
+#page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(182, 25, 25);
+}
+#page3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(104, 11, 11);
+}
+
+canvas {
+    max-width: 100vw;
+    max-height: 100vh;
+}
